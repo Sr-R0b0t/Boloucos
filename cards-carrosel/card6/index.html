@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Bolo de Coco</title>
+    <link rel="stylesheet" href="../../assets/CSS/qrcode.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <nav>
+                <a href="../../index.html">
+                    <img src="../../assets/images/boloucos-logo.png" alt="Logo-boloucos">
+                </a>
+            </nav>
+        </div>
+    </header>    
+
+
+    <main>
+        <div class="crazy">
+            <h1>
+                Somos loucos por bolos
+            </h1>
+        </div>
+        
+        <div class="qrcode">
+            <img src="../../assets/images/qrcode.svg" alt="">
+            <p id="frase">
+                Scaneie ou copie o codigo clicando no botão, faça o pagamento e nos envie o comprovante no Whatsapp!
+            </p>
+            <button onclick="copiarFrase()" data-toggle="popover"
+                data-content="Mensagem Copiada!">Copiar</button>
+            <a href="https://wa.me/5511982907458?text=Ol%C3%A1%2C+preciso+de+atendimento+referente+ao+Bolo+de+Coco.+" title="Enviar Comprovante">
+                <button>
+                    Enviar Comprovante
+                    <img src="../../assets/images/whatsapp_logo_icon_186881.png" alt="">
+                </button>
+            </a>
+        </div>
+    </main>
+
+    <script src="../../assets/Scripts/script.js"></script>
+</body>
+</html>
