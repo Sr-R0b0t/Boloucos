@@ -414,71 +414,86 @@ main h2 {
 
 
 .card-carrosel .cards-img1{
-    background-image: url(./assets/images/sabonete1-carrossel.webp);
+    background-image: url(./assets/images/bolo-chocolate.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-carrosel .cards-img2{
-    background-image: url(./assets/images/sabonete2-carrossel.webp);
+    background-image: url(./assets/images/bolo-milho.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 .card-carrosel .cards-img3{
-    background-image: url(./assets/images/sabonete3-carrossel.jfif);
+    background-image: url(./assets/images/bolo-cenoura.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
 .card-carrosel .cards-img4{
-    background-image: url(./assets/images/sabonete4-carrossel.jfif);
+    background-image: url(./assets/images/bolo-aipim.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
 .card-carrosel .cards-img5{
-    background-image: url(./assets/images/sabonete5-carrossel.webp);
+    background-image: url(./assets/images/bolo-fuba.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 .card-carrosel .cards-img6{
-    background-image: url(./assets/images/sabonete6-carrossel.webp);
+    background-image: url(./assets/images/bolo-coco.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 .card-carrosel .cards-img7{
-    background-image: url(./assets/images/cenoura-chocolatee.png);
+    background-image: url(./assets/images/bolo-cenoura-chocolate.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
 .card-carrosel .cards-img8{
-    background-image: url(./assets/images/sabonete8-carrossel.webp);
+    background-image: url(./assets/images/bolo-limao.png);
     width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
@@ -492,6 +507,7 @@ main h2 {
     margin: .60rem;
     transition: 1s all;
     background-color: #f3e5cc;
+    border-radius: 10px;
 }
 
 .box-card  .cards-img:nth-child(1){
@@ -499,6 +515,7 @@ main h2 {
     height: 200px;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .box-card  .cards:nth-child(2) .cards-img{
@@ -575,7 +592,7 @@ main h2 {
     margin: 1rem .60rem;
     transition: 1s all;
     background-color: #f3e5cc;
-    
+    border-radius: 10px;
 }
 
 .kg{
