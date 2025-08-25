@@ -9,13 +9,11 @@
 
 
 body{
-    background-image: url(../images/mamis.webp);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.932), transparent), url(../images/mamis.webp);
     height: 100dvh;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-blend-mode: color;
-    background-color: #00000050;
 }
 header{
     width: 100%;
