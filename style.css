@@ -510,12 +510,15 @@ main h2 {
     border-radius: 10px;
 }
 
+/* Parte 1 dos cards, (Bolo aniversario) */
+
 .box-card  .cards-img:nth-child(1){
     background-image: url(./assets/images/bolo-festa-1.png);
     height: 200px;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .box-card  .cards:nth-child(2) .cards-img{
@@ -531,55 +534,76 @@ main h2 {
 }
 
 .box-card .cards:nth-child(5) .cards-img{
-    background-image: url(./assets/images/sabonete5-carrossel.webp);
+    background-image: url(./assets/images/bolo-ben10.png);
 }
 
 .box-card .cards:nth-child(6) .cards-img{
-    background-image: url(./assets/images/sabonete6-carrossel.webp);
+    background-image: url(./assets/images/bolo-sololeveling.png);
 }
 
 .box-card .cards:nth-child(7) .cards-img{
-    background-image: url(./assets/images/sabonete7-carrossel.webp);
+    background-image: url(./assets/images/bolo-batman.png);
 }
 
 .box-card .cards:nth-child(8) .cards-img{
-    background-image: url(./assets/images/Facebook.png);
+    background-image: url(./assets/images/bolo-barbie.png);
 }
 
-
+/* Parte 2 dos cards (Bolos caseiros)*/
 
 .two .cards:nth-child(1) .cards-img{
-    background-image: url(./assets/images/Instagram.png);
+    background-image: url(./assets/images/bolo-chocolate.png);
     height: 200px;
     background-size: cover;
     background-position: center;
 }
 
 .two .cards:nth-child(2) .cards-img{
-    background-image: url(./assets/images/Facebook.png);
+    background-image: url(./assets/images/bolo-milho.png);
   
 }
 
 .two .cards:nth-child(3) .cards-img{
-    background-image: url(./assets/images/Facebook.png);
+    background-image: url(./assets/images/bolo-cenoura.png);
   
 }
 
 .two .cards:nth-child(4) .cards-img{
-    background-image: url(./assets/images/Facebook.png);
+    background-image: url(./assets/images/bolo-limao.png);
   
 }
 
+.two .cards:nth-child(5) .cards-img{
+    background-image: url(./assets/images/bolo-cenoura-chocolate.png);
+  
+}
+
+.two .cards:nth-child(6) .cards-img{
+    background-image: url(./assets/images/bolo-fuba.png);
+  
+}
+
+.two .cards:nth-child(7) .cards-img{
+    background-image: url(./assets/images/bolo-coco.png);
+  
+}
+
+.two .cards:nth-child(8) .cards-img{
+    background-image: url(./assets/images/bolo-aipim.png);
+  
+}
+
+/* Parte 3 dos cards (tortas e doces)*/
 
 .three .cards:nth-child(1) .cards-img{
-    background-image: url(./assets/images/Facebook.png);
+    background-image: url(./assets/images/torta-frango.png);
     height: 200px;
     background-size: cover;
     background-position: center;
 }
 
 .three .cards:nth-child(2) .cards-img{
-    background-image: url(./assets/images/Instagram.png);
+    background-image: url(./assets/images/torta-morango.png);
 }
 
 

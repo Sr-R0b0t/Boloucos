@@ -78,12 +78,13 @@ function clicouFour() {
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
-    origin: 'top',
     distance: '60px',
     duration: 2000,
     delay: 200,
 //     reset: true
 });
 
-sr.reveal('.soap, .father-slider, .box-slider',{delay: 50}); 
+sr.reveal('.soap, .father-slider, .box-slider, #produtos', {delay: 50, origin: 'top'});
+sr.reveal('.box-card, #duvidas', {origin: 'bottom'})
+
 
